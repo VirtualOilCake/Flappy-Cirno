@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Themes/MainTheme.tres" type="Theme" id=1]
+
+[node name="StartScene" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Button" type="Button" parent="CanvasLayer"]
+anchor_left = 0.487
+anchor_top = 0.578
+anchor_right = 0.487
+anchor_bottom = 0.578
+margin_left = -51.84
+margin_top = -32.04
+margin_right = 44.16
+margin_bottom = -2.04
+theme = ExtResource( 1 )
+text = "start"
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}

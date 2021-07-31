@@ -3,7 +3,7 @@ extends Node2D
 # Declare member variables here.
 const DEBUG = true
 
-var Pipes = preload("res://Senses/PipeNode2D.tscn")
+var Pipes = preload("res://Scenes/PipeNode2D.tscn)
 onready var pipe_in_timer = get_node("PipeInTimer")
 
 # Called when the node enters the scene tree for the first time.

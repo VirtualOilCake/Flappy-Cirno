@@ -40,9 +40,6 @@ func _ready():
 
 func set_label(text:String):
 	get_node("Label").text = text
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
 
 
 func _on_StartButton_button_up():

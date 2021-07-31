@@ -44,7 +44,7 @@ position = Vector2( 80, 0 )
 script = ExtResource( 3 )
 
 [node name="Light2D" type="Light2D" parent="PlayerNode/Player"]
-position = Vector2( 0, 2.8026e-45 )
+position = Vector2( 0, -2.8026e-45 )
 scale = Vector2( 5, 5 )
 texture = ExtResource( 2 )
 texture_scale = 10.9

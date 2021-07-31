@@ -18,9 +18,6 @@ func add_pipes_with_time(time:float):
 	timer.set_wait_time(1)
 	timer.start()
 	
-	pass
-	
-	
 func add_new_pipes():
 	var base_new_pipe_position = Vector2(450,95)
 	# Create a new pipe instance.

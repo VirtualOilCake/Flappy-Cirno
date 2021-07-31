@@ -31,17 +31,11 @@ func _physics_process(delta):
 		# Increse hight
 		motion.y = -FLAP
 	motion = move_and_slide(motion,UP)
-	# Make ratation within +-60
 	
-	# print("current rotation is: %d"%player_image.rotation_degrees)
-	
-
 func _on_Detect_area_entered(area):
 	if area.name == "PointArea":
 		ValueHolder.add_score()
 		get_parent().get_parent().get_node("CanvasLayer/Label").text = str(ValueHolder.get_score())		
-
-
 
 func _on_Detect_body_entered(body):
 	print("Hit: %s"% body.name)

@@ -2,6 +2,7 @@ extends Node2D
 
 # Declare member variables here.
 const DEBUG = true
+const RANDOM_RANGE = 40 # random range of the hight of the pipes
 
 var Pipes = preload("res://Scenes/PipeNode2D.tscn")
 
@@ -29,7 +30,7 @@ func add_new_pipes():
 	var base_new_pipe_position = Vector2(450,95)
 	# Create a new pipe instance.
 	var pipe_instance = Pipes.instance()
-	var new_pipe_hight = rand_range(-80,80)
+	var new_pipe_hight = rand_range(-RANDOM_RANGE,RANDOM_RANGE)
 	if	DEBUG:
 		print_debug("This pipe hight is: %d"%new_pipe_hight)
 		

@@ -4,7 +4,7 @@
 font_path = "res://Fonts/VonwaonBitmap-12px.ttf"
 
 [resource]
-size = 12
+size = 24
 outline_size = 1
 outline_color = Color( 0, 0.203922, 0.286275, 1 )
 font_data = SubResource( 1 )

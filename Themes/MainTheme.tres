@@ -1,18 +1,40 @@
-[gd_resource type="Theme" load_steps=2 format=2]
+[gd_resource type="Theme" load_steps=8 format=2]
 
-[ext_resource path="res://Fonts/VonWaonBitMapR.tres" type="DynamicFont" id=1]
+[sub_resource type="DynamicFontData" id=1]
+font_path = "res://Fonts/VonwaonBitmap-12px.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 12
+outline_size = 1
+outline_color = Color( 0, 0.203922, 0.286275, 1 )
+font_data = SubResource( 1 )
+
+[sub_resource type="StyleBoxEmpty" id=3]
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.711136, 0.82413, 0.933594, 1 )
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.753906, 0.880318, 1, 1 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.172549, 0.207843, 0.286275, 1 )
+
+[sub_resource type="StyleBoxFlat" id=7]
+bg_color = Color( 0.2, 0.231373, 0.309804, 1 )
 
 [resource]
-default_font = ExtResource( 1 )
+default_font = SubResource( 2 )
 Button/colors/font_color = Color( 0.88, 0.88, 0.88, 1 )
 Button/colors/font_color_disabled = Color( 0.9, 0.9, 0.9, 0.2 )
 Button/colors/font_color_hover = Color( 0.94, 0.94, 0.94, 1 )
 Button/colors/font_color_pressed = Color( 1, 1, 1, 1 )
-Button/constants/hseparation = 2
-Button/fonts/font = ExtResource( 1 )
+Button/constants/hseparation = 1
+Button/fonts/font = SubResource( 2 )
 Button/styles/disabled = null
-Button/styles/focus = null
-Button/styles/hover = null
-Button/styles/normal = null
-Button/styles/pressed = null
-Label/fonts/ = ExtResource( 1 )
+Button/styles/focus = SubResource( 3 )
+Button/styles/hover = SubResource( 4 )
+Button/styles/normal = SubResource( 5 )
+Button/styles/pressed = SubResource( 6 )
+Label/fonts/ = SubResource( 2 )
+Panel/styles/panel = SubResource( 7 )

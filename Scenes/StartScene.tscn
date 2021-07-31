@@ -1,23 +1,71 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Themes/MainTheme.tres" type="Theme" id=1]
+[ext_resource path="res://Scripts/StartScene.gd" type="Script" id=2]
+[ext_resource path="res://Fonts/VonWaonBitMap12.tres" type="DynamicFont" id=3]
+[ext_resource path="res://Fonts/VonWaonBitMap24.tres" type="DynamicFont" id=4]
 
 [node name="StartScene" type="Node2D"]
+script = ExtResource( 2 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
-[node name="Button" type="Button" parent="CanvasLayer"]
-anchor_left = 0.487
-anchor_top = 0.578
-anchor_right = 0.487
-anchor_bottom = 0.578
-margin_left = -51.84
-margin_top = -24.04
-margin_right = 52.16
-margin_bottom = -2.04
+[node name="Panel" type="Panel" parent="CanvasLayer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
 theme = ExtResource( 1 )
-text = "start"
 __meta__ = {
-"_edit_group_": true,
 "_edit_use_anchors_": false
 }
+
+[node name="StartButton" type="Button" parent="CanvasLayer"]
+anchor_left = 0.5
+anchor_top = 0.578
+anchor_right = 0.5
+anchor_bottom = 0.578
+margin_left = -56.0
+margin_top = -24.04
+margin_right = 56.0
+margin_bottom = 5.96
+theme = ExtResource( 1 )
+custom_fonts/font = ExtResource( 3 )
+text = "Start"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ExitButton" type="Button" parent="CanvasLayer"]
+anchor_left = 0.5
+anchor_top = 0.578
+anchor_right = 0.5
+anchor_bottom = 0.578
+margin_left = -56.0
+margin_top = 15.96
+margin_right = 56.0
+margin_bottom = 45.96
+theme = ExtResource( 1 )
+custom_fonts/font = ExtResource( 3 )
+text = "Exit"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NameLabel" type="Label" parent="CanvasLayer"]
+anchor_left = 0.512
+anchor_right = 0.512
+margin_left = -99.84
+margin_top = 24.0
+margin_right = 100.16
+margin_bottom = 67.0
+custom_fonts/font = ExtResource( 4 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_outline_modulate = Color( 0.172549, 0.207843, 0.286275, 1 )
+text = "FlappyCirno"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="button_up" from="CanvasLayer/StartButton" to="." method="_on_StartButton_button_up"]
+[connection signal="button_up" from="CanvasLayer/ExitButton" to="." method="_on_ExitButton_button_up"]

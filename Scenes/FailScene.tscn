@@ -1,0 +1,74 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Fonts/VonWaonBitMap12.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Scripts/FailScene.gd" type="Script" id=2]
+[ext_resource path="res://Themes/MainTheme.tres" type="Theme" id=3]
+
+[node name="FailControlRoot" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.444
+anchor_right = 0.5
+anchor_bottom = 0.444
+margin_left = -160.0
+margin_top = -79.92
+margin_right = 160.0
+margin_bottom = -7.92001
+custom_fonts/font = ExtResource( 1 )
+text = "满身疮痍"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="StartButton" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 0.578
+anchor_right = 0.5
+anchor_bottom = 0.578
+margin_left = -56.0
+margin_top = -24.04
+margin_right = 56.0
+margin_bottom = 5.96
+rect_pivot_offset = Vector2( -296, -96 )
+theme = ExtResource( 3 )
+custom_fonts/font = ExtResource( 1 )
+text = "Restart"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ExitButton" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 0.578
+anchor_right = 0.5
+anchor_bottom = 0.578
+margin_left = -56.0
+margin_top = 15.96
+margin_right = 56.0
+margin_bottom = 45.96
+theme = ExtResource( 3 )
+custom_fonts/font = ExtResource( 1 )
+text = "Exit"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="button_up" from="StartButton" to="." method="_on_StartButton_button_up"]
+[connection signal="button_up" from="ExitButton" to="." method="_on_ExitButton_button_up"]

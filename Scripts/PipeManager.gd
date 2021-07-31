@@ -13,11 +13,6 @@ func _ready():
 	pipe_in_timer.set_wait_time(1)
 	pipe_in_timer.start()
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
-
 func add_pipes_with_time(time:float):
 	var timer = Timer.new()
 	timer.set_wait_time(1)
@@ -45,8 +40,6 @@ func _on_Resetter_area_entered(area):
 		area.queue_free() 
 	if DEBUG:
 			print_debug("area name is: %s"%area.name)
-	pass # Replace with function body.
-
 
 func _on_PipeInTimer_timeout():
 	add_new_pipes()

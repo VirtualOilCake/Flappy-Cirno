@@ -4,7 +4,7 @@ const DEBUG = true
 
 # Declare member variables here. 
 const UP = Vector2(0,-1) # IDK
-const FLAP = 400 # Intensity for one flap.
+const FLAP = 300 # Intensity for one flap.
 const GRAVITY = 20 # Gravaty for the object.
 const ROTATION_ACCELERATION = 10
 

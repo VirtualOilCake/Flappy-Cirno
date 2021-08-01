@@ -1,11 +1,20 @@
 extends Sprite
 
-export var RAINBOW_SPEED = 20
-
+export var RAINBOW_SPEED = Vector2(-300,0)
+export var FADE_SPEED = 3
 func _ready():
-	pass # Replace with function body.
+	# Add a timer to this node
+	var timer = Timer.new()
+	self.add_child(timer)
+	
+	# Connect the timer to make it call "queue_free" after two seconds
+	timer.connect("timeout", self, "queue_free")
+	timer.set_wait_time(1)
+	timer.start()
+	pass
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	pass
+	position += RAINBOW_SPEED * delta
+	modulate.a -= FADE_SPEED * delta

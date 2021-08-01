@@ -37,9 +37,8 @@ func _physics_process(delta):
 	
 func _on_Detect_area_entered(area):
 	if area.name == "PointArea":
-		ValueHolder.add_score()
-		get_parent().get_parent().get_node("CanvasLayer/Label").text = str(ValueHolder.get_score())		
-
+		get_point()
+		
 func _on_Detect_body_entered(body):
 	print("Hit: %s"% body.name)
 	if body.name == "UpperPipe":
@@ -62,6 +61,11 @@ func play_flap_sound():
 func game_fail():
 	get_tree().change_scene("res://Scenes/FailScene.tscn")
 	
+func get_point():
+	ValueHolder.add_score()
+	get_parent().get_parent().get_node("CanvasLayer/Label").text = str(ValueHolder.get_score())	
+	get_node("AudioStreamPlayer").play()	
+
 func _on_UpperAndLowerArea_area_entered(area):
 	if area.name =="PlayerArea":
 		game_fail()

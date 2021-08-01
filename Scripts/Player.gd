@@ -29,7 +29,7 @@ func _physics_process(delta):
 	# When flap
 	if Input.is_action_just_pressed("flap"):
 		# Increse hight
-		motion.y = -FLAP
+		flap()
 	motion = move_and_slide(motion,UP)
 	
 func _on_Detect_area_entered(area):
@@ -44,4 +44,10 @@ func _on_Detect_body_entered(body):
 	if body.name == "LowerPipe":
 		get_tree().change_scene("res://Scenes/FailScene.tscn")
 		
-	
+func flap():
+	motion.y = -FLAP
+
+
+func _on_Button_button_down():
+	flap()
+	print("Flap because of the button")

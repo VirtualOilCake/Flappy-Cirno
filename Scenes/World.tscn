@@ -38,6 +38,17 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="Button" type="Button" parent="CanvasLayer"]
+modulate = Color( 1, 1, 1, 0 )
+self_modulate = Color( 1, 1, 1, 0 )
+anchor_right = 1.0
+anchor_bottom = 1.067
+margin_bottom = -0.0600128
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="PlayerNode" type="Node2D" parent="."]
 
 [node name="Player" type="KinematicBody2D" parent="PlayerNode"]
@@ -94,6 +105,7 @@ scale = Vector2( 42.75, 19 )
 z_index = -1
 texture = ExtResource( 2 )
 
+[connection signal="button_down" from="CanvasLayer/Button" to="PlayerNode/Player" method="_on_Button_button_down"]
 [connection signal="area_entered" from="PlayerNode/Player/Detect" to="PlayerNode/Player" method="_on_Detect_area_entered"]
 [connection signal="body_entered" from="PlayerNode/Player/Detect" to="PlayerNode/Player" method="_on_Detect_body_entered"]
 [connection signal="timeout" from="PlayerNode/Player/LineTrailsNode2D/TrailsTimer" to="PlayerNode/Player/LineTrailsNode2D" method="_on_TrailsTimer_timeout"]

@@ -19,11 +19,12 @@ func _ready():
 		var int_score = int(score)
 		
 		if ValueHolder.get_score()  <= int_score:
-			set_label("Try better next time!\nCurrent Score:%d, Highest Score:%d"%[ValueHolder.get_score(),int_score])
+			
+			set_label(tr("normal-end-text")%[ValueHolder.get_score(),int_score])
 			ValueHolder.reset_score()
 		else :
 			file.store_string("%d"%ValueHolder.get_score())
-			set_label("Great Job!\nNew Record: %d"%ValueHolder.get_score())
+			set_label(tr("new-record-end-text")%ValueHolder.get_score())
 			ValueHolder.reset_score()
 		
 		file.close()

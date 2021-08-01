@@ -29,7 +29,7 @@ margin_right = 56.0
 margin_bottom = 5.96
 theme = ExtResource( 1 )
 custom_fonts/font = ExtResource( 3 )
-text = "Start"
+text = "start"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -45,7 +45,7 @@ margin_right = 56.0
 margin_bottom = 45.96
 theme = ExtResource( 1 )
 custom_fonts/font = ExtResource( 3 )
-text = "Exit"
+text = "exit"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -60,7 +60,7 @@ margin_bottom = 67.0
 custom_fonts/font = ExtResource( 4 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
 custom_colors/font_outline_modulate = Color( 0.172549, 0.207843, 0.286275, 1 )
-text = "FlappyCirno"
+text = "game-title"
 align = 1
 valign = 1
 __meta__ = {

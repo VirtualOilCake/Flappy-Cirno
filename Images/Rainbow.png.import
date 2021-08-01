@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/2021731.png-7856577b75b89ecbb8dd7fdc7256955a.stex"
+path="res://.import/Rainbow.png-5be5499577d6ec0b7cd2d3e364ca6da7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/2021731.png"
-dest_files=[ "res://.import/2021731.png-7856577b75b89ecbb8dd7fdc7256955a.stex" ]
+source_file="res://Images/Rainbow.png"
+dest_files=[ "res://.import/Rainbow.png-5be5499577d6ec0b7cd2d3e364ca6da7.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

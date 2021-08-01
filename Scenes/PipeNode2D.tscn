@@ -5,13 +5,13 @@
 [sub_resource type="GDScript" id=1]
 script/source = "extends Node2D
 
-const SPEED = Vector2(-2,0)
+const SPEED = Vector2(-100,0)
 
 func _ready():
 	pass # Replace with function body.
 
 func _physics_process(delta):
-	position += SPEED
+	position += SPEED * delta
 "
 
 [sub_resource type="RectangleShape2D" id=2]

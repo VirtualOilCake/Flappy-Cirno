@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Sounds/Flap.mp3" type="AudioStream" id=1]
+[ext_resource path="res://Scripts/FlapSound.gd" type="Script" id=2]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer"]
+stream = ExtResource( 1 )
+autoplay = true
+script = ExtResource( 2 )

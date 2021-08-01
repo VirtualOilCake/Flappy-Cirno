@@ -18,7 +18,7 @@ func _ready():
 
 
 func _on_TrailsTimer_timeout():
-	print(get_parent().position)
+	# print(get_parent().position)
 	var rainbow_instance = Rainbow.instance()
 	rainbow_instance.position = get_parent().position
 	rainbow_instance.z_index = 0

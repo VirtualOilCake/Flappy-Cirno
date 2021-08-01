@@ -8,6 +8,8 @@ const FLAP = 300 # Intensity for one flap.
 const GRAVITY = 20 # Gravaty for the object.
 const ROTATION_ACCELERATION = 10
 
+var FlapSoundPlaer = preload("res://Scenes/FlapSound.tscn")
+
 
 var motion = Vector2() # Motion for the object.
 onready var player_image = get_node("PlayerSprite")
@@ -28,8 +30,8 @@ func _physics_process(delta):
 	
 	# When flap
 	if Input.is_action_just_pressed("flap"):
-		# Increse hight
 		flap()
+	
 	motion = move_and_slide(motion,UP)
 	
 func _on_Detect_area_entered(area):
@@ -46,8 +48,12 @@ func _on_Detect_body_entered(body):
 		
 func flap():
 	motion.y = -FLAP
-
+	play_flap_sound()
 
 func _on_Button_button_down():
 	flap()
 	print("Flap because of the button")
+
+func play_flap_sound():
+	var thread = Thread.new()
+	add_child(FlapSoundPlaer.instance())

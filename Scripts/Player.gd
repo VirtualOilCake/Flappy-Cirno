@@ -19,6 +19,7 @@ var current_flap_rotation_speed = 0.0
 
 
 func _ready():
+	get_node("Light2D").visible=true
 	pass # Replace with function body.
 
 
@@ -42,9 +43,9 @@ func _on_Detect_area_entered(area):
 func _on_Detect_body_entered(body):
 	print("Hit: %s"% body.name)
 	if body.name == "UpperPipe":
-		get_tree().change_scene("res://Scenes/FailScene.tscn")
+		game_fail()
 	if body.name == "LowerPipe":
-		get_tree().change_scene("res://Scenes/FailScene.tscn")
+		game_fail()
 		
 func flap():
 	motion.y = -FLAP
@@ -57,3 +58,10 @@ func _on_Button_button_down():
 func play_flap_sound():
 	var thread = Thread.new()
 	add_child(FlapSoundPlaer.instance())
+
+func game_fail():
+	get_tree().change_scene("res://Scenes/FailScene.tscn")
+	
+func _on_UpperAndLowerArea_area_entered(area):
+	if area.name =="PlayerArea":
+		game_fail()

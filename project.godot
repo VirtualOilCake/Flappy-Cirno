@@ -27,7 +27,7 @@ window/size/test_width=1600
 window/size/test_height=900
 window/dpi/allow_hidpi=true
 window/stretch/mode="viewport"
-window/stretch/aspect="expand"
+window/stretch/aspect="keep_height"
 
 [input]
 

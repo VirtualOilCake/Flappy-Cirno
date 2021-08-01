@@ -1,7 +1,7 @@
 ﻿,zh,ja,en
 game-title,飞翔吧琪露诺,フラッピーチルノ,FlappyCirno
-new-record-end-text,牛逼！\n新纪录：%d,やったー！\n新记录：%d,Great Job!\nNew Record: %d
-normal-end-text,满身疮痍\n本次成绩：%d，历史记录：%d,满身疮痍\n今回の点数：%d、历史の记录：%d,"Try better next time!\nThis term: %d, Highest Score: %d"
+new-record-end-text,牛逼！\n新纪录：%d,やったー！\n新んきろく：%d,Great Job!\nNew Record: %d
+normal-end-text,满身疮痍\n本次成绩：%d，历史记录：%d,满身疮痍\n今回の点数：%d、れきしのきろく：%d,"Try better next time!\nThis round: %d, Highest Score: %d"
 start,开始,スタート,Start
 exit,退出,エグジット,Exit
 restart,重开,リスタート,Restart

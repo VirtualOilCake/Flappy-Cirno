@@ -8,9 +8,7 @@
 </p>
 
 # Flappy Cirno
-This is a fangame of Touhou Project.
-
-
+This is an open-source fangame of Touhou Project. Made with Godot game engine.
 
 # License
 Codes：[Do What The F*ck You Want To Public License](https://github.com/net-oil-man/Flappy-Cirno/blob/main/LICENSE)

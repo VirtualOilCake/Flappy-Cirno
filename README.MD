@@ -4,7 +4,7 @@
 
 <p align="center">
   <span>English</span> |
-  <a href="https://github.com/net-oil-man/Flappy-Cirno/README-zh-CS.MD">简体中文</a>
+  <a href="https://github.com/net-oil-man/Flappy-Cirno/blob/main/README-zh-sc.MD">简体中文</a>
 </p>
 
 # Flappy Cirno

@@ -20,6 +20,6 @@
 
 字体以及其他第三方素材：原本的许可
 
-# 致谢
+# 参考
 
-感谢 [Eli Cuaycong](https://www.youtube.com/channel/UCoTXIeHJP7_PukZOCK2C2RA) 的 [超赞的教程](https://youtu.be/Kt1njjNGbSg)。
+[Eli Cuaycong](https://www.youtube.com/channel/UCoTXIeHJP7_PukZOCK2C2RA) 的 [Godot教程](https://youtu.be/Kt1njjNGbSg)。

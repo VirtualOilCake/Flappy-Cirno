@@ -16,7 +16,7 @@
 
 东方相关素材： [ZUN's terms of use](https://web.archive.org/web/20080724144606/http://www.geocities.co.jp/Playtown-Yoyo/1736/t-081-2.html)
 
-字体以及其他第三方素材：Original license
+字体以及其他第三方素材：原本的许可
 
 # 谢明
 

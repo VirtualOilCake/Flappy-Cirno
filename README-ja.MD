@@ -13,7 +13,7 @@
 # ライセンス
 コード：[Do What The F*ck You Want To Public License](https://github.com/net-oil-man/Flappy-Cirno/blob/main/LICENSE)
 
-東方バンホーテンの素材： [ZUN's terms of use](https://web.archive.org/web/20080724144606/http://www.geocities.co.jp/Playtown-Yoyo/1736/t-081-2.html)
+東方バンホーテンの素材： [上海アリス幻樂団創作物の二次創作・使用関連ページ](https://web.archive.org/web/20080724144606/http://www.geocities.co.jp/Playtown-Yoyo/1736/t-081-2.html)
 
 フォントやほかの素材：もとのライセンス
 

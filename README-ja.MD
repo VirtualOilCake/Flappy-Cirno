@@ -8,7 +8,7 @@
 </p>
 
 # フラッピーチルノ
-このプロジェクトは、Godotで作った、東方バンホーテンの同人ゲームです。
+このプロジェクトはGodotで作った東方バンホーテンの同人ゲームです。
 
 # ライセンス
 コード：[Do What The F*ck You Want To Public License](https://github.com/net-oil-man/Flappy-Cirno/blob/main/LICENSE)

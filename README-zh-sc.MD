@@ -20,4 +20,4 @@
 
 # 谢明
 
-感谢 [Eli Cuaycong](https://www.youtube.com/channel/UCoTXIeHJP7_PukZOCK2C2RA) 的 [超赞的教程]](https://youtu.be/Kt1njjNGbSg).
+感谢 [Eli Cuaycong](https://www.youtube.com/channel/UCoTXIeHJP7_PukZOCK2C2RA) 的 [超赞的教程](https://youtu.be/Kt1njjNGbSg).

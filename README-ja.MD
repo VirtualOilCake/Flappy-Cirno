@@ -19,4 +19,4 @@
 
 # 参考
 
-[Eli Cuaycong](https://www.youtube.com/channel/UCoTXIeHJP7_PukZOCK2C2RA) さんの [Godotチュートリアル](https://youtu.be/Kt1njjNGbSg)。
+- [Eli Cuaycong](https://www.youtube.com/channel/UCoTXIeHJP7_PukZOCK2C2RA) さんの [Godotチュートリアル](https://youtu.be/Kt1njjNGbSg)。

@@ -22,4 +22,4 @@ Fonts and other third party assets：Original license
 
 # Reference
 
-[Godot tutorial](https://youtu.be/Kt1njjNGbSg) by [Eli Cuaycong](https://www.youtube.com/channel/UCoTXIeHJP7_PukZOCK2C2RA).
+- [Godot tutorial](https://youtu.be/Kt1njjNGbSg) by [Eli Cuaycong](https://www.youtube.com/channel/UCoTXIeHJP7_PukZOCK2C2RA).

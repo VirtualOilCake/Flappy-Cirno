@@ -3,12 +3,15 @@
 ![repository-open-graph-template](https://user-images.githubusercontent.com/34388992/127737185-d8a0e478-cf9e-4463-8771-14860f43b49e.png)
 
 <p align="center">
-  <span>English</span> |
-  <a href="https://github.com/net-oil-man/Flappy-Cirno/blob/main/README-zh-sc.MD">简体中文</a>
+    <span>English</span> 
+    |
+    <a href="https://github.com/net-oil-man/Flappy-Cirno/blob/main/README-zh-sc.MD">简体中文</a>
+    |
+    <a href="https://github.com/net-oil-man/Flappy-Cirno/blob/main/README-ja.MD">日本語</a> 
 </p>
 
 # Flappy Cirno
-This is an open-source fangame of Touhou Project. Made with Godot game engine.
+This is an open-source fangame of Touhou Project made with Godot game engine.
 
 # License
 Codes：[Do What The F*ck You Want To Public License](https://github.com/net-oil-man/Flappy-Cirno/blob/main/LICENSE)
@@ -17,6 +20,6 @@ Touhou related assets： [ZUN's terms of use](https://web.archive.org/web/200807
 
 Fonts and other third party assets：Original license
 
-# Credit
+# Reference
 
 Thanks [Eli Cuaycong](https://www.youtube.com/channel/UCoTXIeHJP7_PukZOCK2C2RA) for his [great tutorial](https://youtu.be/Kt1njjNGbSg).

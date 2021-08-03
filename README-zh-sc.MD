@@ -1,13 +1,16 @@
 ![repository-open-graph-template](https://user-images.githubusercontent.com/34388992/127737185-d8a0e478-cf9e-4463-8771-14860f43b49e.png)
 
 <p align="center">
-    <a href="https://github.com/net-oil-man/Flappy-Cirno/">English</a> |
-   <span>简体中文</span>
+    <a href="https://github.com/net-oil-man/Flappy-Cirno/">English</a> 
+    |
+    <span>简体中文</span>
+    |
+    <a href="https://github.com/net-oil-man/Flappy-Cirno/blob/main/README-ja.MD">日本語</a> 
   
 </p>
 
 # Flappy Cirno
-这是一个开源的东方同人游戏。采用Godot游戏引擎制作。
+这是一个开源的采用Godot引擎制作的东方同人游戏。
 
 
 # 许可
@@ -17,6 +20,6 @@
 
 字体以及其他第三方素材：原本的许可
 
-# 谢明
+# 致谢
 
 感谢 [Eli Cuaycong](https://www.youtube.com/channel/UCoTXIeHJP7_PukZOCK2C2RA) 的 [超赞的教程](https://youtu.be/Kt1njjNGbSg)。

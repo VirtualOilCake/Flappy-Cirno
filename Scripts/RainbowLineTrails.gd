@@ -1,10 +1,10 @@
 extends Node2D
 
-
 # Declare member variables here. Examples:
 var Rainbow = preload("res://Scenes/Rainbow.tscn")
 
 onready var trail_timer = get_node("TrailsTimer")
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

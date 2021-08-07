@@ -7,7 +7,7 @@ Script for the start scene.
 Current version: 1.1.1
 Since version: 0.2.0
 =============================
-Copyright (C) 2021 Oilman
+Copyright (C) 2021 VirtualOilCake
 =============================
 """
 extends Node2D

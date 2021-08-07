@@ -7,7 +7,7 @@ This script manage the Fail Scene, including the buttons and the scores.
 Current version: 1.1.1
 Since version: 0.2.0
 =============================
-Copyright (C) 2021 Oilman
+Copyright (C) 2021 VirtualOilCake
 """
 extends Control
 

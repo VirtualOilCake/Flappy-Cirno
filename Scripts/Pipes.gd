@@ -7,7 +7,7 @@ The script for pipes.
 Current version: 1.1.1
 Since version: 0.1.0
 =============================
-Copyright (C) 2021 Oilman
+Copyright (C) 2021 VirtualOilCake
 """
 extends StaticBody2D
 

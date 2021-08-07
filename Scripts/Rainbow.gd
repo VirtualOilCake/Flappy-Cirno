@@ -9,7 +9,7 @@ Anyway, it works.
 Current version: 1.1.1
 Since version: 1.1.0
 =============================
-Copyright (C) 2021 Oilman
+Copyright (C) 2021 VirtualOilCake
 """
 extends Sprite
 

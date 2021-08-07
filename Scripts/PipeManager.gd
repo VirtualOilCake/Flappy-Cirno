@@ -7,7 +7,7 @@ The script to add and delete pipes in the world.
 Current version: 1.1.1
 Since version: 0.1.0
 =============================
-Copyright (C) 2021 Oilman
+Copyright (C) 2021 VirtualOilCake
 """
 
 extends Node2D

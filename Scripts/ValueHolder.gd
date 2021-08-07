@@ -8,7 +8,7 @@ I know this is not a good habit, but it works.
 Current version: 1.1.1
 Since version: 0.2.0
 =============================
-Copyright (C) 2021 Oilman
+Copyright (C) 2021 VirtualOilCake
 =============================
 """
 extends Node

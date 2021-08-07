@@ -1,20 +1,26 @@
+"""
+	This file is part of:
+		Flappy Cirno
+=============================
+Script for rainbow elements.
+=============================
+Current version: 1.1.1
+Since version: 0.1.0
+=============================
+Copyright (C) 2021 Oilman
+=============================
+"""
 extends Node2D
 
-# Declare member variables here. Examples:
-var Rainbow = preload("res://Scenes/Rainbow.tscn")
+var Rainbow = preload("res://Scenes/Rainbow.tscn")  # The rainbow scene.
 
-onready var trail_timer = get_node("TrailsTimer")
+onready var trail_timer = get_node("TrailsTimer")  # The timer.
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	trail_timer.set_wait_time(0.01)
 	trail_timer.start()
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
 
 
 func _on_TrailsTimer_timeout():

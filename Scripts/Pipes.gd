@@ -1,3 +1,14 @@
+"""
+	This file is part of:
+		Flappy Cirno
+=============================
+The script for pipes.
+=============================
+Current version: 1.1.1
+Since version: 0.1.0
+=============================
+Copyright (C) 2021 Oilman
+"""
 extends StaticBody2D
 
 # Declare member variables here. Examples:
@@ -6,15 +17,6 @@ extends StaticBody2D
 const SPEED = -2.0
 
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass  # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
-
-
+# Pipe will automatically move to the left.
 func _physics_process(delta):
-	position += Vector2(SPEED, 0)*delta
+	position += Vector2(SPEED, 0) * delta

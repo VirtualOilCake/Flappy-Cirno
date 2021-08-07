@@ -1,9 +1,16 @@
+"""
+	This file is part of:
+		Flappy Cirno
+=============================
+Script for the start scene.
+=============================
+Current version: 1.1.1
+Since version: 0.2.0
+=============================
+Copyright (C) 2021 Oilman
+=============================
+"""
 extends Node2D
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass  # Replace with function body.
 
 
 # Start the main scene.

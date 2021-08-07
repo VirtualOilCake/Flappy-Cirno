@@ -1,30 +1,36 @@
+"""
+	This file is part of:
+		Flappy Cirno
+=============================
+The script to manage player's behaver.
+=============================
+Current version: 1.1.1
+Since version: 0.1.0
+=============================
+Copyright (C) 2021 Oilman
+"""
+
 extends KinematicBody2D
 
 const DEBUG = true
 
 # Declare member variables here. 
 const UP = Vector2(0, -1)  # IDK
-const FLAP = 300  # Intensity for one flap.
-const GRAVITY = 20  # Gravaty for the object.
-const ROTATION_ACCELERATION = 10
+const FLAP: float = 300.0  # Intensity for one flap.
+const GRAVITY: float = 20.0  # Gravity for the object.
+# const ROTATION_ACCELERATION = 10
 
 var FlapSoundPlayer = preload("res://Scenes/FlapSound.tscn")
 
 var motion = Vector2()  # Motion for the object.
-onready var player_image = get_node("PlayerSprite")
-
-var current_rotation_speed = 0.0
-var current_flap_rotation_speed = 0.0
 
 
 func _ready():
+	# The light is very annoying in the scene editor, so I set it to invisible.
 	get_node("Light2D").visible = true
-	pass  # Replace with function body.
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-
-
 func _physics_process(delta):
 	# Falling
 	motion.y += GRAVITY * delta * 50
@@ -33,9 +39,11 @@ func _physics_process(delta):
 	if Input.is_action_just_pressed("flap"):
 		flap()
 
+	# IDK 
 	motion = move_and_slide(motion, UP)
 
 
+# Get point when enter pipes' detect area.
 func _on_Detect_area_entered(area):
 	if area.name == "PointArea":
 		get_point()
@@ -49,14 +57,17 @@ func _on_Detect_body_entered(body):
 		game_fail()
 
 
+# The action when the player flap.
+# This method is called in both _on_Button_button_down() and _physics_process(delta)
 func flap():
 	motion.y = -FLAP
 	play_flap_sound()
 
 
+# This is a button cover the whole interface.
+# Just for touch screen support.
 func _on_Button_button_down():
 	flap()
-	print("Flap because of the button")
 
 
 func play_flap_sound():

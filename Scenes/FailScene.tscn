@@ -37,7 +37,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="StartButton" type="Button" parent="."]
+[node name="RestartButton" type="Button" parent="."]
 anchor_left = 0.5
 anchor_top = 0.578
 anchor_right = 0.5
@@ -49,7 +49,7 @@ margin_bottom = 5.96
 rect_pivot_offset = Vector2( -296, -96 )
 theme = ExtResource( 3 )
 custom_fonts/font = ExtResource( 1 )
-text = "Restart"
+text = "restart"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -65,10 +65,10 @@ margin_right = 56.0
 margin_bottom = 45.96
 theme = ExtResource( 3 )
 custom_fonts/font = ExtResource( 1 )
-text = "Exit"
+text = "exit"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[connection signal="button_up" from="StartButton" to="." method="_on_StartButton_button_up"]
+[connection signal="button_up" from="RestartButton" to="." method="_on_RestartButton_button_up"]
 [connection signal="button_up" from="ExitButton" to="." method="_on_ExitButton_button_up"]

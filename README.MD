@@ -13,6 +13,8 @@
 # Flappy Cirno
 This is an open-source fangame of Touhou Project made with Godot game engine.
 
+Play Online: http://cirno.virtualoilcake.com/
+
 # License
 Codes：[Do What The F*ck You Want To Public License](https://github.com/net-oil-man/Flappy-Cirno/blob/main/LICENSE)
 
